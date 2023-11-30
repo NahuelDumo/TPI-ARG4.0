@@ -1,0 +1,11 @@
+package com.argProg40.veterinariaApp.repositories;
+
+
+import com.argProg40.veterinariaApp.entidades.Medico;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface MedicoRepository extends JpaRepository<Medico, Long> {
+}
+
